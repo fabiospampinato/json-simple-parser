@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/json-simple-parser",
   "description": "The fastest pure-JS implementation for JSON I could come up with.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
