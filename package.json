@@ -1,0 +1,35 @@
+{
+  "name": "json-simple-parser",
+  "repository": "github:fabiospampinato/json-simple-parser",
+  "description": "The fastest pure-JS implementation for JSON I could come up with.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "benchmark": "tsex benchmark",
+    "benchmark:watch": "tsex benchmark --watch",
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "json",
+    "simple",
+    "native",
+    "javascript",
+    "js",
+    "parser"
+  ],
+  "devDependencies": {
+    "benchloop": "^2.1.1",
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
+  }
+}
