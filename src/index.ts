@@ -259,6 +259,8 @@ const getString = (): string => {
 const getStringEscapeSequence = (): string => {
   $I += 1;
   switch ( $INPUT.charCodeAt ( $I - 1 ) ) {
+    case 34: // "
+      return '"';
     case 92: // \
       return '\\';
     case 47: // /

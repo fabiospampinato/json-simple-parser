@@ -1,6 +1,30 @@
 [
   {
-    "a": -123e123
+    "null"  : null,
+    "true": true  ,
+    "false" : false ,
+    "number1": 0,
+    "number2": -0,
+    "number3": 0.0,
+    "number4": -0.0,
+    "number5": 123,
+    "number6": -123,
+    "number7": 123.456,
+    "number8": -123.456,
+    "number9": 0.123,
+    "number10": -0.123,
+    "number11": 123.0,
+    "number12": -123.0,
+    "number13": 0.456e123,
+    "number14": 0.456e-123,
+    "number15": 0.456E123,
+    "number16": 0.456E-123,
+    "string1": "",
+    "string2": "  string  ",
+    "string3": "\\\/\b\f\n\r\t\"",
+    "string4": "\u1234\u0000",
+    "array": [ { "arr": [], "null": null } ],
+    "object": { "deep": [ { "obj": true } ], "null": null }
   },
   {
     "_id": "61ed767b81b27892241cb472",
